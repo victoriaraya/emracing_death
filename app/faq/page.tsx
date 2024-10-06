@@ -26,6 +26,39 @@ const Faq = () => {
         volunteer hours equal at least five percent of the hospice provider's
         total patient care hours.
       </p>
+      <p>
+        How does Death Doula support differ from the support provided by
+        hospice?
+      </p>
+      <p>
+        End-pf-life Doula services can enhance traditional care by offering an
+        additional layer of support and are available before, during and any
+        time after death.
+      </p>
+      <p>
+        Can an End-of-Life Doula work with hospice, hospice staff, or Home
+        Healthcare Aides in the care of a loved one?
+      </p>
+      <p>
+        Yes. Patients are their families often need greater support in the final
+        days of life. End-of-life doulas are not employed by the hospice
+        agencies and often do not face the same time constraints as hospice
+        providers and can stay with the patient longer. End-of-life doulas can
+        help hospices' efforts to improve health equity in hard to reach
+        settings while also improving quality in the last days of life by
+        providing a layer of support and helping prepare people for death by
+        opening up conversations about it, as well as providing comfort and
+        resources.
+      </p>
+      <p>
+        Who regulates or organizes regulating standards for the End-of-life
+        Doula profession?
+      </p>
+      <p>
+        {`National End-of-life Doula Alliance (NEDA) has set a national
+        practicum with Core Competencies for the practice of professional
+        End-of-life Doulas.`}
+      </p>
     </div>
   );
 };
