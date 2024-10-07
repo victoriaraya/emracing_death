@@ -33,6 +33,17 @@ const About = () => {
           be a peaceful dying for them; after a death, I help families wrap up
           the affairs of a life.{" "}
         </p>
+        <p>
+          The goal of Embracing Death Doula Care Service is to provide holistic,
+          compassionate care that addresses the physical, emotional, spiritual
+          and practical needs of the dying person and their loved ones.
+        </p>
+        <p>
+          As a certified End of Life Death Doula, as a hospice nurse, I do
+          possess the personal strengths and skills that are valuable for being
+          an end-of-life doula. Some of the key qualities that can be helpful in
+          this role includes ....
+        </p>
       </p>
       <h1>About Me</h1>
       <p>

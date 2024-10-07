@@ -59,6 +59,53 @@ const Faq = () => {
         practicum with Core Competencies for the practice of professional
         End-of-life Doulas.`}
       </p>
+      <p>What is a Death/End-of-Life Doula?</p>
+      <p>
+        A Death Doula/End-of-Life Doula is a non-medical, trained professional
+        who provides support via education, organization, planning and resources
+        for end of life similar to the aide a birth doula provides during
+        pregnancy and through the birthing process. <br />
+        The role of a Death Doula is t oassist families prior to, throughout and
+        after the dying process. This assistance may include, but is not limited
+        to, helping families create plans and have conversations prior to a
+        person entering the end-of-life stages, creating a cofort and care plan
+        for end-of-life, assigning a person to carry out healthcare decisions,
+        estate planning and legacy projects. <br />
+        We can work alongside a hospice and palliative care team, but we offer a
+        separate non medical service. <br />
+        A few other things death doulas can help with is providing spiritual,
+        emotional and social support before and just after death. <br />
+        Death doulas provide emotional support, assist with decision-making and
+        help create a peaceful and meaningful end-of-life experience. By
+        offering compassionate care that is tailored to the individual's values
+        and preferences, death doulas can help individuals and their families
+        navigate the complexities of the dying process with dignity and respect.
+      </p>
+      <p>What is End-of-Life Planning?</p>
+      <p>
+        Plans made for you by you to help your loved ones at the end of your
+        life. Going through the end-of-life arrangements is very emotional and
+        as an end of life death doula helping the patient and their loved ones
+        find peace and ease their anxiety and aid in comfort to promote a
+        personalized passage.
+      </p>
+      <p>Benefit of End-of-Life Planner</p>
+      <p>
+        Facilitating end-of-life planning to help prepare practicalities, ease
+        anxiety, aid in comfort and promot a personalized passage. <br />
+        Increasing quuality of life moments for clients and loved ones by
+        providing resources and support to client and loved ones through the
+        end-of-life journey. <br />
+        Supporting the patient and their loved ones with resources regarding
+        end-of-life arrangements. <br />
+        Providing with resources to bring closure to end of life planning,
+        ensure the support to have any tasks required performed for greater
+        peace of mind and to ease the transition. <br />
+        Serving as support to the client and loved ones through the end-of-life
+        journey. <br />
+        Increasing quality of life moments for clients and loved ones as the
+        end-of-life planner serves as a resource to facilitate.
+      </p>
     </div>
   );
 };
