@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className="flex flex-col gap-3">
-      <h1>About Embracing Death Doula</h1>
+      <h1>About Meaningful EndCare</h1>
       <p>
         <p>
           {" "}
@@ -34,9 +34,9 @@ const About = () => {
           the affairs of a life.{" "}
         </p>
         <p>
-          The goal of Embracing Death Doula Care Service is to provide holistic,
-          compassionate care that addresses the physical, emotional, spiritual
-          and practical needs of the dying person and their loved ones.
+          The goal of Meaningful EndCare is to provide holistic, compassionate
+          care that addresses the physical, emotional, spiritual and practical
+          needs of the dying person and their loved ones.
         </p>
         <p>
           As a certified End of Life Death Doula, as a hospice nurse, I do
