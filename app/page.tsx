@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="w-full h-full bg-[#588448]">
+    <div className="w-full h-full bg-[#4F7641]">
       <div>
         <Image
           src={"/images/flower.jpg"}
