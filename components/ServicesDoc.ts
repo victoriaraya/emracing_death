@@ -1,43 +1,43 @@
 const ServicesList = [
   {
-    name: "Companion",
+    name: "Companion Services",
     description:
-      "Serving the dying and dying person's loved ones. The End-of-Live Doula lends a supportive presence and provides comforting space for the dying patient and their loved ones to decrease as much stress as possible during the end-of-life process. Listening: offering a non-judgemental ear for fears, hopes and memories and helping to facilitate unresolved issues. Guidance: helping navigate emotional responses to gyign and death, including grief and fear. A non-medical companion: A medical care liason's goal is to help a person understand the ever-changing and increasingly challenging medical care system and anticipate the need of the expected end-of-life signs/symptoms and education of interventions as appropriate.",
+      "Emotional Support: Offering a non-judgmental ear for fears, hopes, and memories, helping resolve emotional issues. Guidance: Assisting with grief, fear, and other emotional responses to dying. Medical Liaison: Helping patients and families navigate medical systems and end-of-life care.",
   },
   {
     name: "Practical Supports",
     description:
-      "Care Planning: assisting in creating an end-of-life care plan that aligns with the person's wishes. Coordination: working with healthcare providers, hospice agencies and other care professionals to ensure cohesive care. Planning the vigil: helping plan for the last 24-48 hours of the person's life. End-of-Life Planning: organizing and coordinating the wake, funeral and eulogy. Eulogy: assisting with writing the eulogy and facilitating resources.",
+      "Care Planning: Creating an end-of-life plan aligned with personal wishes. Coordination: Collaborating with healthcare providers and hospice services for cohesive care. Vigil Planning: Organizing the final 24-48 hours of life. End-of-Life Planning: Arranging for the wake, funeral, and writing eulogies.",
   },
   {
     name: "Physical Comforts",
     description:
-      "Comfort measures: suggesting ways to increase physical comfort such as arranging pillows, playing music, adjusting lights and coordinating visitors. Vigil sittings: beind present during the final hours or days to provide continuous support and care.",
+      "Comfort Measures: Providing suggestions to increase physical comfort, such as adjusting lights and music. Vigil Sittings: Being present during the final hours for continuous support.",
   },
   {
     name: "Spiritual Support",
     description:
-      "Rituals and ceremonies: assisting in the creation and facilitation of meaningful rituals or spiritual practices. Life Review: helping individuals reflect on their life, achievements and relationships by documenting their meaningful life stories in tangible mementos to leave behind for their loved ones. ",
+      "Rituals and Ceremonies: Facilitating meaningful rituals or spiritual practices. Life Review: Helping document life stories for loved ones.",
   },
   {
     name: "Educational Support",
     description:
-      "Information: educating the patient and fammily about what to expect during the dying process, identifying bothersome symptom issues for addressing with the hospice/healthcare team. Suggesting interventions for comfort and providing hands-on teaching. Resources: providing information on legal, financial and funeral planning.",
+      "Information: Educating on the dying process, symptoms, and comfort interventions. Resources: Providing guidance on legal, financial, and funeral planning.",
   },
   {
     name: "Advocacy",
     description:
-      "Patient Advocacy: ensuring the individual's wishes are respected and followed by healthcare providers and family members. Advance Directives: assisting in the creation of advance directives for healthcare and refferals for other legal documents to ensure the person's end-of-life wishes are documented and honored.",
+      "Patient Advocacy: Ensuring the individual's wishes are respected. Advance Directives: Assisting with healthcare directives and legal documents.",
   },
   {
     name: "Post-Death Support",
     description:
-      "Acting as a liaison with involved agencies and parties. Immediate Post-Death care: Guiding the family through immediate actions after death, including body care and disposition options. Grief support: Offering continued emotional support and connecting the family with grief counseling or a support group",
+      "Immediate Guidance: Assisting families with immediate actions after death. Grief Support: Providing emotional support and referrals to grief counseling.",
   },
   {
     name: "Continuity of Care",
     description:
-      "Death doulas often work in collaboration with other healthcare providers, ensuring seamless transitions and continuity of care. They bridge the gap between medical professionals and the emotional needs of the dying person and their family.",
+      "Collaborative Care: Working with other healthcare providers to ensure seamless transitions and ongoing emotional support.",
   },
 ];
 
