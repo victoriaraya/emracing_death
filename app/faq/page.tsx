@@ -1,11 +1,13 @@
 const Faq = () => {
   return (
-    <div className="bg-[#4F7641] text-[#CDBA9D] h-full px-6">
-      <h1 className="text-5xl text-center py-4">Frequently Asked Questions</h1>
-      <h2 className="text-2xl pb-2">
+    <div className="bg-[#CDBA9D] text-[#4F7641] h-full px-16">
+      <h1 className="text-6xl text-center py-4 pb-16">
+        Frequently Asked Questions
+      </h1>
+      <h2 className="text-3xl pb-4">
         Are there fees for your services? Do you take insurance?
       </h2>
-      <p className="text-xl pb-4">
+      <p className="text-xl pb-20">
         Yes there is a charge. End-of-life doula services are not converd by
         Medicare or other insurance. Instead, such services, like other
         companion/caregiver type services are typically paid for by individuals
@@ -14,11 +16,11 @@ const Faq = () => {
         as well. I can work with all budgets. Please contact me today to
         schedule a free consultation.
       </p>
-      <h2 className="text-2xl pb-2">
+      <h2 className="text-3xl pb-4">
         What is the difference between a hospice volunteer and an end-of-life
         doula?
       </h2>
-      <p className="text-xl pb-4">
+      <p className="text-xl pb-20">
         The death doula's service do not take the place of hospice personnel;
         rather they complement other services that a dying person and their
         family may be receiving buy providing additional support and community
@@ -29,20 +31,20 @@ const Faq = () => {
         volunteer hours equal at least five percent of the hospice provider's
         total patient care hours.
       </p>
-      <h2 className="text-2xl pb-2">
+      <h2 className="text-3xl pb-4">
         How does Death Doula support differ from the support provided by
         hospice?
       </h2>
-      <p className="text-xl pb-4">
+      <p className="text-xl pb-20">
         End-of-life Doula services can enhance traditional care by offering an
         additional layer of support and are available before, during and any
         time after death.
       </p>
-      <h2 className="text-2xl pb-2">
+      <h2 className="text-3xl pb-4">
         Can an End-of-Life Doula work with hospice, hospice staff, or Home
         Healthcare Aides in the care of a loved one?
       </h2>
-      <p className="text-xl pb-4">
+      <p className="text-xl pb-20">
         Yes. Patients are their families often need greater support in the final
         days of life. End-of-life doulas are not employed by the hospice
         agencies and often do not face the same time constraints as hospice
@@ -53,17 +55,17 @@ const Faq = () => {
         opening up conversations about it, as well as providing comfort and
         resources.
       </p>
-      <h2 className="text-2xl pb-2">
+      <h2 className="text-3xl pb-4">
         Who regulates or organizes regulating standards for the End-of-life
         Doula profession?
       </h2>
-      <p className="text-xl pb-4">
+      <p className="text-xl pb-20">
         {`National End-of-life Doula Alliance (NEDA) has set a national
         practicum with Core Competencies for the practice of professional
         End-of-life Doulas.`}
       </p>
-      <h2 className="text-2xl pb-2">What is End-of-Life planning?</h2>
-      <p className="text-xl pb-4">
+      <h2 className="text-3xl pb-4">What is End-of-Life planning?</h2>
+      <p className="text-xl pb-20">
         Plans made for you by you to help your loved ones at the end of your
         life. Going through the end-of-life arrangements is very emotional and
         as an end of life death doula helping the patient and their loved ones

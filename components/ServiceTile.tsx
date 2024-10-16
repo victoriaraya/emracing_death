@@ -2,9 +2,9 @@ const ServiceTile = (props) => {
   const service = props.service;
 
   return (
-    <div className="bg-[#45260C]">
-      <h1>{service.name}</h1>
-      <p>{service.description}</p>
+    <div>
+      <h1 className="text-3xl pb-4">{service.name}</h1>
+      <p className="text-xl pb-20">{service.description}</p>
     </div>
   );
 };

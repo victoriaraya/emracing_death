@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="w-full h-full bg-[#4F7641]">
+    <div className="w-full h-full bg-[#CDBA9D]">
       <div className="relative w-full h-screen">
         <Image
           src={"/images/flower_cropped2.jpg"}
@@ -16,7 +16,7 @@ export default function Home() {
           Family and patient centered support for end-of-life transitions
         </h1>
       </div>
-      <div className="h-full flex-col items-center justify-items-center text-left px-28 py-12 text-[#CDBA9D]">
+      <div className="h-full flex-col items-center justify-items-center text-left px-28 py-12 text-[#4F7641]">
         <h1 className="text-5xl pb-4">What is an End-of-Life Doula?</h1>
         <p className="text-xl">
           A Death Doula/End-of-Life Doula is a non-medical, trained professional
@@ -44,8 +44,18 @@ export default function Home() {
           and respect.
         </p>
       </div>
-      <div className="h-full flex-col items-center justify-items-center text-left px-28 py-16 bg-[#CDBA9D] text-[#4F7641]">
-        <h1 className="text-5xl pb-4">Benefits of an End-of-Life Planner</h1>
+      <div className="relative h-full flex-col items-center justify-items-center text-left px-28 py-16 bg-[#CDBA9D] text-[#4F7641]">
+        <Image
+          src={"/images/border2.png"}
+          alt="border"
+          width={2000}
+          height={100}
+          quality={100}
+          className="absolute top-0 left-0 w-full -mt-5"
+        />
+        <h1 className="text-5xl pb-4 pt-40">
+          Benefits of an End-of-Life Planner
+        </h1>
         <ul className="text-xl list-disc">
           <li>
             Facilitating end-of-life planning to help prepare practicalities,
@@ -77,7 +87,7 @@ export default function Home() {
           </li>
         </ul>
       </div>
-      <footer className="bg-[#2c393a] text-[#CDBA9D] py-20">contact</footer>
+      <footer className="bg-[#F4E9E1] text-[#2c393a] py-20">contact</footer>
     </div>
   );
 }

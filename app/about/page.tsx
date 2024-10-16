@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="flex flex-col gap-14 bg-[#4F7641] text-[#CDBA9D] h-full px-6 pb-4">
+    <div className="flex flex-col gap-14 bg-[#CDBA9D] text-[#4F7641] h-full px-6 pb-4">
       <div className="flex">
         <div className="flex-col">
           <h1 className="text-4xl text-left pt-4">About Meaningful EndCare</h1>

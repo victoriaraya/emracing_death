@@ -32,7 +32,7 @@ const NavBar = () => {
       </div>
 
       <ul
-        className={`flex flex-col md:flex-row gap-3 sm:gap-8 justify-center items-center text-center text-2xl font-bold w-full sm:h-full absolute top-0 left-0 mt-14 md:mt-0 sm:p-3 z-20 ${
+        className={`flex flex-col md:flex-row gap-3 sm:gap-20 justify-center items-center text-center text-2xl font-bold w-full sm:h-full absolute top-0 left-0 mt-14 md:mt-0 sm:p-3 z-20 ${
           isOpen ? "block" : "hidden"
         } md:flex bg-[#CDBA9D]`}
       >
