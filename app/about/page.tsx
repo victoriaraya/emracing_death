@@ -5,41 +5,54 @@ const About = () => {
     <div className="flex flex-col gap-14 bg-[#CDBA9D] text-[#4F7641] h-full px-6 pb-4">
       <div className="flex">
         <div className="flex-col">
-          <h1 className="text-4xl text-left pt-4">About Meaningful EndCare</h1>
-          <p className="text-lg">
-            {" "}
-            I've no doubt you've heard Antoine de Saint-Exupery's quote, 'A goal
-            without a plan in just a wish.' The quote above empasizes the
-            importance of having a clear plan to achieve a goal. By creating end
-            of life plans ahead, ensures that your wishes are respected,
-            providing clear guidance and reducing the potential for family
-            conflicts and alleviates the burden on the loved ones during an
-            emotionally challenging time. Making an end of life arrangement plan
-            helps prevents unexpected financial burdens on the loved onesand
-            knowing that you have a plan in place can bring peace of mind to you
-            and your family.
+          <h1 className="text-4xl text-left pt-4 pb-8">
+            About Meaningful EndCare
+          </h1>
+          <div className="text-lg pb-32">
+            <p>
+              {" "}
+              I've no doubt you've heard Antoine de Saint-Exupery's quote, 'A
+              goal without a plan in just a wish.' The quote above empasizes the
+              importance of having a clear plan to achieve a goal. By creating
+              end of life plans ahead, ensures that your wishes are respected,
+              providing clear guidance and reducing the potential for family
+              conflicts and alleviates the burden on the loved ones during an
+              emotionally challenging time. Making an end of life arrangement
+              plan helps prevents unexpected financial burdens on the loved
+              onesand knowing that you have a plan in place can bring peace of
+              mind to you and your family.{" "}
+            </p>
             <br />
-            Many people have not thought about the arrangement of end of life
-            and feel overwhelmed about where to start the process. I hope to
-            help ease some of the most common questions and unsurety while
-            caring for a loved one who is going through the ding process.
+            <p>
+              Many people have not thought about the arrangement of end of life
+              and feel overwhelmed about where to start the process. I hope to
+              help ease some of the most common questions and unsurety while
+              caring for a loved one who is going through the ding process.{" "}
+            </p>
             <br />
-            My work starts when people are healthy, I help them start to think
-            about wha t the end of their lives might look like and help them
-            create a plan for doing so; when someone is looking at the end of
-            their lives, meaning there's a terminal illness or they're getting
-            very elderly, I help them develop a personalized plan about what
-            would be a peaceful dying for them; after a death, I help families
-            wrap up the affairs of a life. <br />
-            The goal of Meaningful EndCare is to provide holistic, compassionate
-            care that addresses the physical, emotional, spiritual and practical
-            needs of the dying person and their loved ones.
+            <p>
+              My work starts when people are healthy, I help them start to think
+              about wha t the end of their lives might look like and help them
+              create a plan for doing so; when someone is looking at the end of
+              their lives, meaning there's a terminal illness or they're getting
+              very elderly, I help them develop a personalized plan about what
+              would be a peaceful dying for them; after a death, I help families
+              wrap up the affairs of a life.
+            </p>{" "}
             <br />
-            As a certified End of Life Death Doula, as a hospice nurse, I do
-            possess the personal strengths and skills that are valuable for
-            being an end-of-life doula. Some of the key qualities that can be
-            helpful in this role includes ....
-          </p>
+            <p>
+              The goal of Meaningful EndCare is to provide holistic,
+              compassionate care that addresses the physical, emotional,
+              spiritual and practical needs of the dying person and their loved
+              ones.{" "}
+            </p>
+            <br />
+            <p>
+              As a certified End of Life Death Doula, as a hospice nurse, I do
+              possess the personal strengths and skills that are valuable for
+              being an end-of-life doula.{" "}
+            </p>
+          </div>
         </div>
         <Image
           src={"/images/flower_hands.jpg"}
@@ -52,7 +65,7 @@ const About = () => {
       </div>
       <div className="grid grid-cols-2">
         <Image
-          src={"/images/hands_holding.jpg"}
+          src={"/images/holding_hands.jpg"}
           alt="holding hands"
           width={500}
           height={600}
@@ -60,7 +73,7 @@ const About = () => {
           className="row-span-2 ml-4 mt-10"
         />
         <h1 className="text-4xl text-left mr-10">About Me</h1>
-        <p className="text-lg">
+        <div className="text-lg">
           <p>
             I have always been deeply fascinated by the profound impact that
             compassionate end-of-life support can have on individuals and their
@@ -91,7 +104,7 @@ const About = () => {
             I am a certified death doula and certified in advance healthcare
             planning.
           </p>
-        </p>
+        </div>
       </div>
     </div>
   );

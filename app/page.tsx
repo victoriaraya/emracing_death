@@ -5,19 +5,27 @@ export default function Home() {
     <div className="w-full h-full bg-[#CDBA9D]">
       <div className="relative w-full h-screen">
         <Image
-          src={"/images/flower_cropped2.jpg"}
+          src={"/images/flowers.jpg"}
           alt="flower"
           width={550}
           height={400}
           quality={100}
-          className="absolute top-0 left-0 w-full h-screen"
+          className="absolute top-0 right-10 h-5/6"
         />
-        <h1 className="absolute inset-0 flex flex-col text-center items-center justify-center px-28 md:text-7xl text-4xl text-[#45260C]">
+        <Image
+          src={"/images/hands_holding.jpg"}
+          alt="holding hands"
+          width={550}
+          height={400}
+          quality={100}
+          className="absolute bottom-0 left-10"
+        />
+        <h1 className="absolute left-0 flex flex-col text-center px-28 md:text-7xl text-4xl text-[#45260C]">
           Family and patient centered support for end-of-life transitions
         </h1>
       </div>
       <div className="h-full flex-col items-center justify-items-center text-left px-28 py-12 text-[#4F7641]">
-        <h1 className="text-5xl pb-4">What is an End-of-Life Doula?</h1>
+        <h1 className="text-5xl pb-8">What is an End-of-Life Doula?</h1>
         <p className="text-xl">
           A Death Doula/End-of-Life Doula is a non-medical, trained professional
           who provides support via education, organization, planning and
@@ -53,35 +61,35 @@ export default function Home() {
           quality={100}
           className="absolute top-0 left-0 w-full -mt-5"
         />
-        <h1 className="text-5xl pb-4 pt-40">
+        <h1 className="text-5xl pb-8 pt-40">
           Benefits of an End-of-Life Planner
         </h1>
         <ul className="text-xl list-disc">
-          <li>
+          <li className="pb-6">
             Facilitating end-of-life planning to help prepare practicalities,
             ease anxiety, aid in comfort and promote a personalized passage{" "}
           </li>
-          <li>
+          <li className="pb-6">
             {" "}
             Increasing quality of life moments for clients and loved ones by
             providing resources and support through the end-of-life journey{" "}
           </li>
-          <li>
+          <li className="pb-6">
             {" "}
             Supporting the patient and their loved ones with resources regarding
             end-of-life arrangements{" "}
           </li>
-          <li>
+          <li className="pb-6">
             {" "}
             Providing with resources to bring closure to end of life planning,
             ensure the support to have any tasks required performed for greater
             peace of mind and to ease the transition{" "}
           </li>
-          <li>
+          <li className="pb-6">
             Serving as support to the client and loved ones through the
             end-of-life journey{" "}
           </li>
-          <li>
+          <li className="pb-6">
             Increasing quality of life moments for clients and loved ones as the
             end-of-life planner serves as a resource to facilitate{" "}
           </li>

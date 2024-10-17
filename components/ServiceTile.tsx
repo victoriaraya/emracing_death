@@ -4,7 +4,13 @@ const ServiceTile = (props) => {
   return (
     <div>
       <h1 className="text-3xl pb-4">{service.name}</h1>
-      <p className="text-xl pb-20">{service.description}</p>
+      <ul className="text-xl list-disc pb-14 pl-5">
+        {service.description.map((item, idx) => (
+          <li key={idx} className="pb-5">
+            {item}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
