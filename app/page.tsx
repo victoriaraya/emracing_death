@@ -1,31 +1,34 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="w-full h-full bg-[#CDBA9D]">
-      <div className="relative w-full h-screen">
-        <Image
-          src={"/images/flowers.jpg"}
-          alt="flower"
-          width={550}
-          height={400}
-          quality={100}
-          className="absolute top-0 right-10 h-5/6"
-        />
-        <Image
-          src={"/images/hands_holding.jpg"}
-          alt="holding hands"
-          width={550}
-          height={400}
-          quality={100}
-          className="absolute bottom-0 left-10"
-        />
-        <h1 className="absolute left-0 flex flex-col text-center px-28 md:text-7xl text-4xl text-[#45260C]">
-          Family and patient centered support for end-of-life transitions
-        </h1>
+    <div className="w-full h-full [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#d2b48c_100%)]">
+      <div className="flex w-full h-screen pt-5 ">
+        <div className="pl-12 w-full">
+          <Image
+            src={"/images/flower3_cropped2.jpg"}
+            alt="flower"
+            width={550}
+            height={400}
+            quality={100}
+            className="h-5/6 rounded-lg"
+          />
+        </div>
+        <div className="flex flex-col items-center">
+          <h1 className="text-center md:text-6xl text-4xl text-[#45260C] pt-20 px-8 pb-32">
+            Family and patient centered support for end-of-life transitions
+          </h1>
+          <p className="relative group text-3xl text-[#45260C]">
+            <Link href={"/services"}>Learn more about our services</Link>
+            <span className="absolute left-1/2 bottom-[-3px] w-0 h-[2px] bg-[#45260C] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+          </p>
+        </div>
       </div>
-      <div className="h-full flex-col items-center justify-items-center text-left px-28 py-12 text-[#4F7641]">
-        <h1 className="text-5xl pb-8">What is an End-of-Life Doula?</h1>
+      <div className=" h-full flex-col items-center justify-items-center text-left px-28 text-[#4F7641]">
+        <h1 className="text-5xl pb-8 text-center">
+          What is an End-of-Life Doula?
+        </h1>
         <p className="text-xl">
           A Death Doula/End-of-Life Doula is a non-medical, trained professional
           who provides support via education, organization, planning and
@@ -52,50 +55,69 @@ export default function Home() {
           and respect.
         </p>
       </div>
-      <div className="relative h-full flex-col items-center justify-items-center text-left px-28 py-16 bg-[#CDBA9D] text-[#4F7641]">
-        <Image
+      <div className="relative h-full flex items-center justify-items-center text-left pl-14 pr-14 py-32 text-[#4F7641]">
+        {/* <Image
           src={"/images/border2.png"}
           alt="border"
           width={2000}
           height={100}
           quality={100}
           className="absolute top-0 left-0 w-full -mt-5"
+        /> */}
+        <div className="flex-col">
+          <h1 className="text-5xl pb-10 pr-8 text-center">
+            Benefits of an End-of-Life Planner
+          </h1>
+          <ul className="text-xl list-disc pr-16 pl-5">
+            <li className="pb-6">
+              Facilitating end-of-life planning to help prepare practicalities,
+              ease anxiety, aid in comfort and promote a personalized passage{" "}
+            </li>
+            <li className="pb-6">
+              {" "}
+              Increasing quality of life moments for clients and loved ones by
+              providing resources and support through the end-of-life journey{" "}
+            </li>
+            <li className="pb-6">
+              {" "}
+              Supporting the patient and their loved ones with resources
+              regarding end-of-life arrangements{" "}
+            </li>
+            <li className="pb-6">
+              {" "}
+              Providing with resources to bring closure to end of life planning,
+              ensure the support to have any tasks required performed for
+              greater peace of mind and to ease the transition{" "}
+            </li>
+            <li className="pb-6">
+              Serving as support to the client and loved ones through the
+              end-of-life journey{" "}
+            </li>
+            <li className="pb-6">
+              Increasing quality of life moments for clients and loved ones as
+              the end-of-life planner serves as a resource to facilitate{" "}
+            </li>
+          </ul>
+        </div>
+        <Image
+          src={"/images/flower_hand.jpg"}
+          alt="flower in hands"
+          width={350}
+          height={500}
+          quality={100}
+          className="rounded-lg mt-24"
         />
-        <h1 className="text-5xl pb-8 pt-40">
-          Benefits of an End-of-Life Planner
-        </h1>
-        <ul className="text-xl list-disc">
-          <li className="pb-6">
-            Facilitating end-of-life planning to help prepare practicalities,
-            ease anxiety, aid in comfort and promote a personalized passage{" "}
-          </li>
-          <li className="pb-6">
-            {" "}
-            Increasing quality of life moments for clients and loved ones by
-            providing resources and support through the end-of-life journey{" "}
-          </li>
-          <li className="pb-6">
-            {" "}
-            Supporting the patient and their loved ones with resources regarding
-            end-of-life arrangements{" "}
-          </li>
-          <li className="pb-6">
-            {" "}
-            Providing with resources to bring closure to end of life planning,
-            ensure the support to have any tasks required performed for greater
-            peace of mind and to ease the transition{" "}
-          </li>
-          <li className="pb-6">
-            Serving as support to the client and loved ones through the
-            end-of-life journey{" "}
-          </li>
-          <li className="pb-6">
-            Increasing quality of life moments for clients and loved ones as the
-            end-of-life planner serves as a resource to facilitate{" "}
-          </li>
-        </ul>
       </div>
-      <footer className="bg-[#F4E9E1] text-[#2c393a] py-20">contact</footer>
+      <footer className="bg-gradient-to-t from-[#CDBA9D] to-[#F4E9E1] text-[#2c393a] py-14 flex gap-56 justify-center text-2xl">
+        <p className="relative group">
+          <Link href={"/services"}>See our services</Link>
+          <span className="absolute left-1/2 bottom-[-3px] w-0 h-[2px] bg-[#2c393a] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+        </p>
+        <p className="relative group">
+          <Link href={"/contact"}>Contact us</Link>
+          <span className="absolute left-1/2 bottom-[-3px] w-0 h-[2px] bg-[#2c393a] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+        </p>
+      </footer>
     </div>
   );
 }

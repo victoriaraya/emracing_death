@@ -20,7 +20,7 @@ const NavBar = () => {
 
   return (
     <nav
-      className={`${notoSansEthiopic.className} relative text-[#2c393a] bg-[#CDBA9D] md:h-32 h-16`}
+      className={`${notoSansEthiopic.className} relative text-[#2c393a] bg-gradient-to-b from-[#CDBA9D] to-white md:h-32 h-16`}
     >
       <div className="flex justify-center items-center">
         <button
@@ -34,7 +34,7 @@ const NavBar = () => {
       <ul
         className={`flex flex-col md:flex-row gap-3 sm:gap-20 justify-center items-center text-center text-2xl font-bold w-full sm:h-full absolute top-0 left-0 mt-14 md:mt-0 sm:p-3 z-20 ${
           isOpen ? "block" : "hidden"
-        } md:flex bg-[#CDBA9D]`}
+        } md:flex bg-gradient-to-b from-[#CDBA9D] to-white`}
       >
         <li className="relative group">
           <Link href="/faq" onClick={() => setIsOpen(false)}>
