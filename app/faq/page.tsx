@@ -1,6 +1,6 @@
 const Faq = () => {
   return (
-    <div className="bg-[#CDBA9D] text-[#4F7641] h-full px-16">
+    <div className="[background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#d2b48c_100%)] text-[#4F7641] h-full px-16">
       <h1 className="text-6xl text-center py-4 pb-16">
         Frequently Asked Questions
       </h1>

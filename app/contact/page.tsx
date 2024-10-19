@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col bg-[#CDBA9D] text-[#4F7641] h-full">
+    <div className="flex flex-col [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#d2b48c_100%)] text-[#4F7641] h-full">
       <h1 className="text-6xl text-center py-4 pb-16">Contact</h1>
       <p>
         Let's work together! Contact me at .... to schedule a free 30 minute

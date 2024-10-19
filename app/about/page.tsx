@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="flex flex-col gap-14 bg-[#CDBA9D] text-[#4F7641] h-full px-6 pb-4">
+    <div className="flex flex-col gap-14 [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#d2b48c_100%)] text-[#4F7641] h-full px-6 pb-4">
       <div className="flex">
         <div className="flex-col">
           <h1 className="text-4xl text-left pt-4 pb-8">
