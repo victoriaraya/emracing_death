@@ -32,7 +32,7 @@ const ServicesList = [
       "Rituals and Ceremonies: Facilitating meaningful rituals or spiritual practices.",
       "Life Review: Helping document life stories for loved ones.",
     ],
-    imageName: "",
+    imageName: "spiritual_support.jpg",
   },
   {
     name: "Educational Support",
@@ -40,7 +40,7 @@ const ServicesList = [
       "Information: Educating on the dying process, symptoms, and comfort interventions.",
       "Resources: Providing guidance on legal, financial, and funeral planning.",
     ],
-    imageName: "",
+    imageName: "educational_support.jpg",
   },
   {
     name: "Advocacy",
@@ -48,7 +48,7 @@ const ServicesList = [
       "Patient Advocacy: Ensuring the individual's wishes are respected.",
       "Advance Directives: Assisting with healthcare directives and legal documents.",
     ],
-    imageName: "",
+    imageName: "advocacy.jpg",
   },
   {
     name: "Post-Death Support",
@@ -56,14 +56,14 @@ const ServicesList = [
       "Immediate Guidance: Assisting families with immediate actions after death.",
       "Grief Support: Providing emotional support and referrals to grief counseling.",
     ],
-    imageName: "",
+    imageName: "post_death_support.jpg",
   },
   {
     name: "Continuity of Care",
     description: [
       "Collaborative Care: Working with other healthcare providers to ensure seamless transitions and ongoing emotional support.",
     ],
-    imageName: "",
+    imageName: "continuity_of_care.jpg",
   },
 ];
 
