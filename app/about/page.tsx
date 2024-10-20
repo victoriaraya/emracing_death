@@ -55,8 +55,8 @@ const About = () => {
           </div>
         </div>
         <Image
-          src={"/images/flower_hands.jpg"}
-          alt="hands holding a flower"
+          src={"/images/couple.jpg"}
+          alt="elderly couple"
           width={400}
           height={500}
           quality={100}

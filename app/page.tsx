@@ -32,7 +32,7 @@ export default function Home() {
         <p className="text-xl">
           A Death Doula/End-of-Life Doula is a non-medical, trained professional
           who provides support via education, organization, planning and
-          resources for end of life similar to the aide a birth doula provides
+          resources for end of life, similar to the aide a birth doula provides
           during pregnancy and through the birthing process. <br />
           <br />
           Their role is to assist families prior to, throughout and after the
@@ -108,7 +108,10 @@ export default function Home() {
           className="rounded-lg mt-24"
         />
       </div>
-      <footer className="bg-gradient-to-t from-[#CDBA9D] to-[#F4E9E1] text-[#2c393a] py-14 flex gap-56 justify-center text-2xl">
+      <h1 className="text-[#45260C] text-center text-4xl pb-24 pt-16">
+        Contact us to schedule a free 30 minute consultation
+      </h1>
+      <footer className="border-t-4 border-[#F4E9E1] text-[#2c393a] py-10 flex gap-56 justify-center text-2xl">
         <p className="relative group">
           <Link href={"/services"}>See our services</Link>
           <span className="absolute left-1/2 bottom-[-3px] w-0 h-[2px] bg-[#2c393a] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
