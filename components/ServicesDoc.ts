@@ -6,7 +6,7 @@ const ServicesList = [
       "Guidance: Assisting with grief, fear, and other emotional responses to dying.",
       "Medical Liaison: Helping patients and families navigate medical systems and end-of-life care.",
     ],
-    imageName: "",
+    imageName: "companion_services.jpg",
   },
   {
     name: "Practical Supports",
@@ -16,7 +16,7 @@ const ServicesList = [
       "Vigil Planning: Organizing the final 24-48 hours of life.",
       "End-of-Life Planning: Arranging for the wake, funeral, and writing eulogies.",
     ],
-    imageName: "",
+    imageName: "practical_support.jpg",
   },
   {
     name: "Physical Comforts",
