@@ -108,18 +108,51 @@ export default function Home() {
           className="rounded-lg mt-24"
         />
       </div>
-      <h1 className="text-[#45260C] text-center text-4xl pb-24 pt-16">
+      <h1 className="text-[#45260C] text-center text-4xl pb-4 pt-16">
         Contact us to schedule a free 30 minute consultation
       </h1>
-      <footer className="border-t-4 border-[#F4E9E1] text-[#2c393a] py-10 flex gap-56 justify-center text-2xl">
-        <p className="relative group">
+      <h2 className="text-[#45260C] text-center text-3xl pb-24">
+        kjskdsj@gmail.com
+      </h2>
+      <footer className="border-t-2 border-[#F4E9E1] text-[#2c393a] py-10 flex gap-20 justify-center text-2xl">
+        <a
+          href="https://doulagivers.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="doulagivers"
+        >
+          <Image
+            src={"/images/doulagivers_logo.png"}
+            alt="doulagivers logo"
+            width={100}
+            height={100}
+            quality={100}
+            className="rounded-lg"
+          />
+        </a>
+        <a
+          href="https://www.nedalliance.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="neda"
+        >
+          <Image
+            src={"/images/neda_logo.png"}
+            alt="neda logo"
+            width={100}
+            height={100}
+            quality={100}
+            className="rounded-lg"
+          />
+        </a>
+        {/* <p className="relative group">
           <Link href={"/services"}>See our services</Link>
           <span className="absolute left-1/2 bottom-[-3px] w-0 h-[2px] bg-[#2c393a] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
         </p>
         <p className="relative group">
           <Link href={"/contact"}>Contact us</Link>
           <span className="absolute left-1/2 bottom-[-3px] w-0 h-[2px] bg-[#2c393a] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
-        </p>
+        </p> */}
       </footer>
     </div>
   );
