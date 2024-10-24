@@ -25,77 +25,60 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className=" h-full flex-col items-center justify-items-center text-left px-28 text-[#4F7641]">
+      <div className=" h-full flex-col items-center justify-items-center text-left px-36 text-[#4F7641]">
         <h1 className="text-5xl pb-8 text-center">
           What is an End-of-Life Doula?
         </h1>
-        <p className="text-xl">
-          A Death Doula/End-of-Life Doula is a non-medical, trained professional
-          who provides support via education, organization, planning and
-          resources for end of life, similar to the aide a birth doula provides
-          during pregnancy and through the birthing process. <br />
+        <p className="text-xl leading-loose">
+          A Death Doula, or End-of-Life Doula, is a trained, non-medical
+          professional who supports individuals and families through the dying
+          process, similar to how a birth doula assists during pregnancy and
+          through the birthing process. They offer help with planning,
+          organizing, and providing resources, including creating care plans,
+          facilitating important conversations, and supporting legacy projects.{" "}
           <br />
-          Their role is to assist families prior to, throughout and after the
-          dying process. This assistance may include, but is not limited to,
-          helping families create plans and have conversations prior to a person
-          entering the end-of-life stages, creating a comfort and care plan for
-          end-of-life, assigning a person to carry out healthcare decisions,
-          estate planning and legacy projects. <br />
           <br />
-          We can work alongside a hospice and palliative care team, but we offer
-          a separate non-medical service. A few other things we can help with is
-          providing spiritual, emotional and social support before and just
-          after death. <br />
+          While we can work alongside hospice and palliative care teams, our
+          services are non-medical. We also provide emotional, spiritual, and
+          social support before and just after death, helping families make
+          decisions and ensuring a meaningful, peaceful end-of-life experience.{" "}
           <br />
-          Death doulas provide emotional support, assist with decision-making
-          and help create a peaceful and meaningful end-of-life experience. By
-          offering compassionate care that is tailored to the individual's
+          <br />
+          By offering compassionate care that is tailored to the individual's
           values and preferences, death doulas can help individuals and their
           families navigate the complexities of the dying process with dignity
           and respect.
         </p>
       </div>
       <div className="relative h-full flex items-center justify-items-center text-left pl-14 pr-14 py-32 text-[#4F7641]">
-        {/* <Image
-          src={"/images/border2.png"}
-          alt="border"
-          width={2000}
-          height={100}
-          quality={100}
-          className="absolute top-0 left-0 w-full -mt-5"
-        /> */}
         <div className="flex-col">
           <h1 className="text-5xl pb-10 pr-8 text-center">
             Benefits of an End-of-Life Planner
           </h1>
-          <ul className="text-xl list-disc pr-16 pl-5">
+          <ul className="text-xl list-disc pr-16 pl-5 leading-loose">
             <li className="pb-6">
-              Facilitating end-of-life planning to help prepare practicalities,
-              ease anxiety, aid in comfort and promote a personalized passage{" "}
+              Facilitating end-of-life planning to prepare practicalities, ease
+              anxiety, enhance comfort, and promote a personalized passage{" "}
             </li>
             <li className="pb-6">
               {" "}
-              Increasing quality of life moments for clients and loved ones by
-              providing resources and support through the end-of-life journey{" "}
+              Supporting patients and their loved ones with resources for
+              end-of-life arrangements{" "}
             </li>
             <li className="pb-6">
               {" "}
-              Supporting the patient and their loved ones with resources
-              regarding end-of-life arrangements{" "}
+              Providing resources to finalize end-of-life plans, ensuring any
+              necessary tasks are completed for greater peace of mind and a
+              smoother transition{" "}
             </li>
             <li className="pb-6">
-              {" "}
-              Providing with resources to bring closure to end of life planning,
-              ensure the support to have any tasks required performed for
-              greater peace of mind and to ease the transition{" "}
+              Serving as a supportive presence for clients and loved ones
+              throughout the end-of-life process{" "}
             </li>
             <li className="pb-6">
-              Serving as support to the client and loved ones through the
-              end-of-life journey{" "}
-            </li>
-            <li className="pb-6">
-              Increasing quality of life moments for clients and loved ones as
-              the end-of-life planner serves as a resource to facilitate{" "}
+              Enhancing quality-of-life moments for clients and loved ones by
+              offering resources, support, and guidance throughout the
+              end-of-life planning process{" "}
             </li>
           </ul>
         </div>
@@ -114,7 +97,7 @@ export default function Home() {
       <h2 className="text-[#45260C] text-center text-3xl pb-24">
         kjskdsj@gmail.com
       </h2>
-      <footer className="border-t-2 border-[#F4E9E1] text-[#2c393a] py-10 flex gap-20 justify-center text-2xl">
+      <footer className="border-t-2 border-[#F4E9E1] text-[#2c393a] py-8 flex gap-20 justify-center text-2xl">
         <a
           href="https://doulagivers.com/"
           target="_blank"
@@ -145,14 +128,6 @@ export default function Home() {
             className="rounded-lg"
           />
         </a>
-        {/* <p className="relative group">
-          <Link href={"/services"}>See our services</Link>
-          <span className="absolute left-1/2 bottom-[-3px] w-0 h-[2px] bg-[#2c393a] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
-        </p>
-        <p className="relative group">
-          <Link href={"/contact"}>Contact us</Link>
-          <span className="absolute left-1/2 bottom-[-3px] w-0 h-[2px] bg-[#2c393a] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
-        </p> */}
       </footer>
     </div>
   );

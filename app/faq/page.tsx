@@ -1,13 +1,37 @@
+"use client";
+import { use, useState } from "react";
+import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowUp } from "react-icons/io";
+
 const Faq = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleQuestion = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className="[background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#d2b48c_100%)] text-[#4F7641] h-full px-16">
-      <h1 className="text-6xl text-center py-4 pb-16">
+      <h1 className="text-6xl text-center py-4 pb-8">
         Frequently Asked Questions
       </h1>
-      <h2 className="text-3xl pb-4">
-        Are there fees for your services? Do you take insurance?
+      <p className="pb-16 text-center text-2xl px-20">
+        Cant find what you're looking for?{" "}
+        <a href="mailto:sjsk@g.com" className="underline">
+          Please email us!
+        </a>
+      </p>
+      <h2 className="text-3xl pb-4 flex">
+        Are there fees for your services? Do you take insurance?{" "}
+        <button
+          className="justify-self-end"
+          openElement={0}
+          onClick={toggleQuestion}
+        >
+          {isOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
+        </button>
       </h2>
-      <p className="text-xl pb-20">
+      <p className={isOpen ? "text-xl pb-20" : "text-xl pb-20 hidden"}>
         Yes there is a charge. End-of-life doula services are not covered under
         insurance policies. Services are private pay, similar to other
         companion/caregiver type services. Fees are affordable and are charged
@@ -18,8 +42,11 @@ const Faq = () => {
       <h2 className="text-3xl pb-4">
         What is the difference between a hospice volunteer and an end-of-life
         doula?
+        <button className="justify-self-end" onClick={toggleQuestion}>
+          {isOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
+        </button>
       </h2>
-      <p className="text-xl pb-20">
+      <p className={isOpen ? "text-xl pb-20" : "text-xl pb-20 hidden"}>
         The death doula's service do not take the place of hospice personnel;
         rather they complement other services that a dying person and their
         family may be receiving buy providing additional support and community
