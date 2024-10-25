@@ -95,7 +95,7 @@ export default function Home() {
         Contact us to schedule a free 30 minute consultation
       </h1>
       <h2 className="text-[#45260C] text-center text-3xl pb-24">
-        kjskdsj@gmail.com
+        meaningfulendcare@gmail.com
       </h2>
       <footer className="border-t-2 border-[#F4E9E1] text-[#2c393a] py-8 flex gap-20 justify-center text-2xl">
         <a
