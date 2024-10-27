@@ -17,7 +17,7 @@ const Faq = () => {
       </h1>
       <p className="pb-16 text-center text-2xl px-20">
         Cant find what you're looking for?{" "}
-        <a href="mailto:sjsk@g.com" className="underline">
+        <a href="mailto:meaningfulendcare@gmail.com" className="underline">
           Please email us!
         </a>
       </p>
