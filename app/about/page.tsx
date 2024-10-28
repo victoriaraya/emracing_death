@@ -54,8 +54,8 @@ const About = () => {
         <Image
           src={"/images/holding_hands.jpg"}
           alt="holding hands"
-          width={500}
-          height={600}
+          width={400}
+          height={500}
           quality={100}
           className="row-span-2 ml-4 mt-10"
         />
