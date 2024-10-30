@@ -1,15 +1,7 @@
-"use client";
-import { use, useState } from "react";
-import { IoIosArrowDown } from "react-icons/io";
-import { IoIosArrowUp } from "react-icons/io";
+import FAQItem from "@/components/FAQItem";
+import { FAQList } from "@/components/FAQDoc";
 
 const Faq = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleQuestion = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
     <div className="[background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#d2b48c_100%)] text-[#4F7641] h-full px-16">
       <h1 className="text-6xl text-center py-4 pb-8">
@@ -21,6 +13,12 @@ const Faq = () => {
           Please email us!
         </a>
       </p>
+      <div className="space-y-4">
+        {FAQList.map((faq, index) => (
+          <FAQItem key={index} question={faq.question} answer={faq.answer} />
+        ))}
+      </div>
+      {/*
       <h2 className="text-3xl pb-4 flex">
         Are there fees for your services? Do you take insurance?{" "}
         <button
@@ -120,7 +118,7 @@ const Faq = () => {
         of life after loss. We are not funeral professionals, there are things
         we cannot do like grooming your loved one or officiate a funeral BUT we
         are able to provide resources for mortuary and burial service.
-      </p>
+      </p> */}
     </div>
   );
 };
