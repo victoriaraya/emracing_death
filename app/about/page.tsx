@@ -2,65 +2,62 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="flex flex-col gap-14 [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#d2b48c_100%)] text-[#4F7641] h-full px-6 pb-4">
-      <div className="flex">
-        <div className="flex-col">
-          <h1 className="text-4xl text-left pt-4 pb-8">
-            About Meaningful EndCare
-          </h1>
-          <div className="text-lg pb-32">
-            <p>
-              {" "}
-              'A goal without a plan in just a wish.' This quote empasizes the
-              importance of having a clear plan to achieve a goal. By creating
-              end-of-life plans, you ensure your wishes are respected, lessen
-              the emotional and financial burden on loved ones, and bring peace
-              of mind to you and your family.{" "}
-            </p>
-            <br />
-            <p>
-              Many people have not thought about end-of-life arrangements and
-              feel overwhelmed about where to begin. I'm here to help answer
-              common questions and provide support throughout the process.{" "}
-            </p>
-            <br />
-            <p>
-              My work begins when people are healthy; I help them consider what
-              the end of their life might look like and support them in creating
-              a plan. For those facing terminal illness or advanced age, I
-              assist in developing a personalized plan for a peaceful
-              end-of-life experience. After a passing, I guide families in
-              wrapping up the affairs of a loved one's life.
-            </p>{" "}
-            <br />
-            <p>
-              The goal of Meaningful EndCare is to provide holistic,
-              compassionate care that addresses the physical, emotional,
-              spiritual, and practical needs of the dying person and their loved
-              ones.{" "}
-            </p>
-          </div>
+    <div className="[background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#d2b48c_100%)] text-[#4F7641] h-full px-14 pb-20">
+      <div className="grid grid-cols-2 pb-48">
+        <h1 className="text-5xl text-left pt-4 pb-8 col-start-1">
+          About Meaningful EndCare
+        </h1>
+        <div className="text-xl leading-loose col-start-1">
+          <p>
+            {" "}
+            'A goal without a plan in just a wish.' This quote empasizes the
+            importance of having a clear plan to achieve a goal. By creating
+            end-of-life plans, you ensure your wishes are respected, lessen the
+            emotional and financial burden on loved ones, and bring peace of
+            mind to you and your family.{" "}
+          </p>
+          <br />
+          <p>
+            Many people have not thought about end-of-life arrangements and feel
+            overwhelmed about where to begin. I'm here to help answer common
+            questions and provide support throughout the process.{" "}
+          </p>
+          <br />
+          <p>
+            My work begins when people are healthy; I help them consider what
+            the end of their life might look like and support them in creating a
+            plan. For those facing terminal illness or advanced age, I assist in
+            developing a personalized plan for a peaceful end-of-life
+            experience. After a passing, I guide families in wrapping up the
+            affairs of a loved one's life.
+          </p>{" "}
+          <br />
+          <p>
+            The goal of Meaningful EndCare is to provide holistic, compassionate
+            care that addresses the physical, emotional, spiritual, and
+            practical needs of the dying person and their loved ones.{" "}
+          </p>
         </div>
         <Image
           src={"/images/couple.jpg"}
           alt="elderly couple"
-          width={400}
-          height={500}
+          width={500}
+          height={600}
           quality={100}
-          className="pt-4 pl-4"
+          className="row-span-2 justify-self-center ml-16 rounded-sm self-center"
         />
       </div>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 ">
         <Image
           src={"/images/holding_hands.jpg"}
           alt="holding hands"
-          width={400}
-          height={500}
+          width={500}
+          height={600}
           quality={100}
-          className="row-span-2 ml-4 mt-10"
+          className="row-span-2 justify-self-center mr-16 rounded-sm self-center"
         />
-        <h1 className="text-4xl text-left mr-10">About Me</h1>
-        <div className="text-lg">
+        <h1 className="text-5xl text-left pb-8">About Me</h1>
+        <div className="text-xl leading-loose">
           <p>
             I have always been deeply fascinated by the profound impact that
             compassionate end-of-life support can have on individuals and their

@@ -14,7 +14,7 @@ const ServiceTile = (props) => {
         className="rounded-sm pb-5"
       />
       <h1 className="text-3xl pb-4 text-center">{service.name}</h1>
-      <ul className="text-xl list-disc pb-14 pl-5">
+      <ul className="text-xl list-disc pb-4 pl-5">
         {service.description.map((item, idx) => (
           <li key={idx} className="pb-5">
             {item}

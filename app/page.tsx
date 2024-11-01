@@ -92,10 +92,13 @@ export default function Home() {
         />
       </div>
       <h1 className="text-[#45260C] text-center text-4xl pb-4 pt-16">
-        Contact us to schedule a free 30 minute consultation
+        Contact us today to schedule a free 30 minute consultation
       </h1>
       <h2 className="text-[#45260C] text-center text-3xl pb-24">
-        meaningfulendcare@gmail.com
+        <a href="mailto:meaningfulendcare@gmail.com" className="relative group">
+          meaningfulendcare@gmail.com
+          <span className="absolute left-1/2 bottom-[-5px] w-0 h-[2px] bg-[#45260C] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+        </a>
       </h2>
       <footer className="border-t-2 border-[#F4E9E1] text-[#2c393a] py-8 flex gap-20 justify-center text-2xl">
         <a
