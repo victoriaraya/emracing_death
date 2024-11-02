@@ -3,7 +3,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <div className="[background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#d2b48c_100%)] text-[#4F7641] h-full px-14 pb-20">
-      <div className="grid grid-cols-2 pb-48">
+      <div className="grid grid-cols-2 pb-40">
         <h1 className="text-5xl text-left pt-4 pb-8 col-start-1">
           About Meaningful EndCare
         </h1>
@@ -47,6 +47,7 @@ const About = () => {
           className="row-span-2 justify-self-center ml-16 rounded-sm self-center"
         />
       </div>
+      <div className="w-full border-b-2 border-[#F4E9E1] mb-32"></div>
       <div className="grid grid-cols-2 ">
         <Image
           src={"/images/holding_hands.jpg"}
