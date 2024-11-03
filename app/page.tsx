@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="w-full h-full [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#d2b48c_100%)]">
-      <div className="flex w-full h-screen pt-5 ">
+      <div className="flex w-full h-screen pt-10">
         <div className="pl-12 w-full">
           <Image
             src={"/images/flower3_cropped2.jpg"}

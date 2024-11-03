@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Noto_Sans_Ethiopic } from "next/font/google";
+import Image from "next/image";
 
 const notoSansEthiopic = Noto_Sans_Ethiopic({
   subsets: ["latin"],
@@ -20,7 +21,7 @@ const NavBar = () => {
 
   return (
     <nav
-      className={`${notoSansEthiopic.className} relative text-[#2c393a] bg-gradient-to-b from-[#CDBA9D] to-white md:h-32 h-16`}
+      className={`${notoSansEthiopic.className} relative text-[#2c393a] bg-gradient-to-b from-[#CDBA9D] to-white md:h-60 h-16`}
     >
       <div className="flex justify-center items-center">
         <button
@@ -50,10 +51,20 @@ const NavBar = () => {
         </li>
         <li className="relative group">
           <Link href="/" onClick={() => setIsOpen(false)}>
-            Meaningful EndCare
+            <Image
+              src={"/images/logo.png"}
+              alt="meaningful endcare logo"
+              width={300}
+              height={250}
+              quality={100}
+            />
           </Link>
-          <span className="absolute left-1/2 bottom-[-3px] w-0 h-[2px] bg-[#2c393a] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
         </li>
+        {/* <li className="relative group md:hidden">
+          <Link href="/" onClick={() => setIsOpen(false)}>
+            Home
+          </Link>
+        </li> */}
         <li className="relative group">
           <Link href="/about" onClick={() => setIsOpen(false)}>
             About

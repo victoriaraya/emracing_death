@@ -19,7 +19,7 @@ const Contact = () => {
         width={450}
         height={500}
         quality={100}
-        className="justify-self-center self-center rounded-sm mt-4"
+        className="justify-self-center self-center rounded-sm mt-10"
       />
     </div>
   );
