@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="[background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#d2b48c_100%)] text-[#4F7641] h-full px-14 pb-20">
       <div className="grid grid-cols-2 pb-40">
-        <h1 className="text-5xl text-left pt-4 pb-8 col-start-1">
+        <h1 className="text-5xl text-left pt-8 pb-8 col-start-1">
           About Meaningful EndCare
         </h1>
         <div className="text-xl leading-loose col-start-1">
