@@ -50,8 +50,8 @@ const About = () => {
       <div className="w-full border-b-2 border-[#F4E9E1] mb-32"></div>
       <div className="grid grid-cols-2 ">
         <Image
-          src={"/images/holding_hands.jpg"}
-          alt="holding hands"
+          src={"/images/emi_copy.png"}
+          alt="Emi"
           width={500}
           height={600}
           quality={100}
