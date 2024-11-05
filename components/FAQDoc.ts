@@ -36,7 +36,7 @@ const FAQList = [
   {
     question: "What about funeral assistance, vigils and other arrangements?",
     answer:
-      "An End-of-life Doula can help with many things from the beginning stages of the dying process to helping the patients and failies as death becomes more imminent. We can also help with vigils at time of death, after death care, understanding and honoring grief and finally recovery of life after loss. We are not funeral professionals, there are things we cannot do like grooming your loved one or officiate a funeral BUT we are able to provide resources for mortuary and burial service.",
+      "An End-of-life Doula can help with many things from the beginning stages of the dying process to helping the patients and families as death becomes more imminent. We can also help with vigils at time of death, after death care, understanding and honoring grief and finally recovery of life after loss. We are not funeral professionals, there are things we cannot do like grooming your loved one or officiate a funeral BUT we are able to provide resources for mortuary and burial service.",
   },
 ];
 

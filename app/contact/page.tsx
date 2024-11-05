@@ -10,7 +10,7 @@ const Contact = () => {
           <span className="absolute left-1/2 bottom-[-5px] w-0 h-[2px] bg-[#4F7641] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
         </a>
         <br />
-        to answer any questions you may have or to schedule a free 30 minute
+        to answer any questions you may have or to schedule a free 15 minute
         consultation.
       </p>
       <Image

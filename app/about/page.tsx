@@ -86,8 +86,8 @@ const About = () => {
           </p>{" "}
           <br />
           <p>
-            I am a certified death doula and certified in advance healthcare
-            planning.
+            I am a certified hospice and pallative care registered nurse,
+            certified death doula and certified in advance healthcare planning.
           </p>
         </div>
       </div>

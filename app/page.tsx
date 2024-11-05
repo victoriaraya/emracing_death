@@ -92,7 +92,7 @@ export default function Home() {
         />
       </div>
       <h1 className="text-[#45260C] text-center text-4xl pb-4 pt-16">
-        Contact us today to schedule a free 30 minute consultation
+        Contact us today to schedule a free 15 minute consultation
       </h1>
       <h2 className="text-[#45260C] text-center text-3xl pb-24">
         <a href="mailto:meaningfulendcare@gmail.com" className="relative group">
