@@ -12,7 +12,7 @@ const marcellus = Marcellus({
 
 export const metadata: Metadata = {
   title: "Meaningful EndCare",
-  description: "End-of-life doula",
+  description: "End-of-life Death doula",
 };
 
 export default function RootLayout({
