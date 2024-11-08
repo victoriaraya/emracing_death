@@ -69,7 +69,7 @@ const About = () => {
           </p>
           <br />{" "}
           <p>
-            When death happened, families were not mentally, emotionally and
+            When death happened, families were not mentally, emotionally, and
             financially prepared. My own life experiences have led ME to an
             expanded curiosity about what is possible for end-of-life care.
             Making a formal plan to help the guess work out of what you want and
