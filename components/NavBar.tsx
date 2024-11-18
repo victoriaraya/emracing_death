@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Noto_Sans_Ethiopic } from "next/font/google";
 import Image from "next/image";
 
 const NavBar = () => {

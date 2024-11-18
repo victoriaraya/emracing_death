@@ -7,7 +7,7 @@ export default function Home() {
       <div className="grid grid-cols-1 sm:flex w-full h-screen pt-10">
         <div className="pl-12 w-full">
           <Image
-            src={"/images/flower3_cropped2.jpg"}
+            src={"/images/flowers.jpg"}
             alt="flower"
             width={550}
             height={400}

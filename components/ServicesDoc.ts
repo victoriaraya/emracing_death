@@ -68,7 +68,7 @@ const ServicesList = [
 ];
 
 const getService = (name) => {
-  let service = ServicesList.find((service) => service.name === name);
+  const service = ServicesList.find((service) => service.name === name);
 
   return service;
 };
