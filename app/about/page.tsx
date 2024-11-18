@@ -10,7 +10,7 @@ const About = () => {
         <div className="text-xl leading-loose col-start-1 pl-6">
           <p>
             {" "}
-            'A goal without a plan in just a wish.' This quote empasizes the
+            'A goal without a plan is just a wish.' This quote emphasizes the
             importance of having a clear plan to achieve a goal. By creating
             end-of-life plans, you ensure your wishes are respected, lessen the
             emotional and financial burden on loved ones, and bring peace of
@@ -64,7 +64,7 @@ const About = () => {
             compassionate end-of-life support can have on individuals and their
             loved ones. Through personal experiences of over 15 years as a
             hospice and palliative care nurse, I have come to understand the
-            importance of hollistic care and the need for compassionate guidance
+            importance of holistic care and the need for compassionate guidance
             during this significant transition.{" "}
           </p>
           <br />{" "}
@@ -72,7 +72,7 @@ const About = () => {
             When death happened, families were not mentally, emotionally, and
             financially prepared. My own life experiences have led ME to an
             expanded curiosity about what is possible for end-of-life care.
-            Making a formal plan to help the guess work out of what you want and
+            Making a formal plan to help the guesswork out of what you want and
             communicating that with your loved ones may actually alleviate some
             of the stress that comes with death; like funeral plans, body
             disposition and even what outfit you want to wear.{" "}
@@ -80,13 +80,13 @@ const About = () => {
           <br />{" "}
           <p>
             Going through end-of-life arrangements is very emotional and the
-            end-of-life death doula help the patient and their loved ones find
+            end-of-life death doula helps the patient and their loved ones find
             peace and ease their anxiety and aid in comfort to promote a
             personalized passage.{" "}
           </p>{" "}
           <br />
           <p>
-            I am a certified hospice and pallative care registered nurse,
+            I am a certified hospice and palliative care registered nurse,
             certified death doula and certified in advance healthcare planning.
           </p>
         </div>
