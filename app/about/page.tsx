@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="[background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#d2b48c_100%)] text-[#4F7641] h-full px-14 pb-20">
+    <div className="[background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#d2b48c_100%)] text-[#4F7641] h-full px-5 sm:px-14 pb-20">
       <div className="grid grid-cols-1 sm:grid-cols-2 pb-40">
-        <h1 className="text-5xl text-left pt-8 pb-8 col-start-1 pl-6">
+        <h1 className="text-4xl sm:text-5xl text-center sm:text-left pt-8 pb-6 sm:pb-8 col-start-1 sm:pl-6">
           About Meaningful EndCare
         </h1>
-        <div className="text-xl leading-loose col-start-1 pl-6">
+        <div className="text-lg sm:text-xl text-center sm:text-left leading-loose sm:leading-loose col-start-1 sm:pl-6 pb-10 sm:pb-0">
           <p>
             {" "}
             'A goal without a plan is just a wish.' This quote emphasizes the
@@ -44,10 +44,10 @@ const About = () => {
           width={500}
           height={600}
           quality={100}
-          className="row-span-2 justify-self-center ml-16 rounded-sm self-center"
+          className="sm:row-span-2 justify-self-center sm:ml-16 rounded-sm self-center -mb-28 sm:mb-0"
         />
       </div>
-      <div className="w-full border-b-2 border-[#F4E9E1] mb-32"></div>
+      <div className="w-full border-b-2 border-[#F4E9E1] mb-12 sm:mb-32"></div>
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <Image
           src={"/images/emi.jpg"}
@@ -55,10 +55,12 @@ const About = () => {
           width={500}
           height={600}
           quality={100}
-          className="row-span-2 justify-self-center mr-16 rounded-sm self-center"
+          className="sm:row-span-2 justify-self-center sm:mr-16 mb-8 sm:mb-0 rounded-sm self-center"
         />
-        <h1 className="text-5xl text-left pb-8">About Me</h1>
-        <div className="text-xl leading-loose">
+        <h1 className="text-4xl sm:text-5xl text-center sm:text-left pb-6 sm:pb-8">
+          About Me
+        </h1>
+        <div className="text-lg sm:text-xl text-center sm:text-left leading-loose sm:leading-loose">
           <p>
             I have always been deeply fascinated by the profound impact that
             compassionate end-of-life support can have on individuals and their
