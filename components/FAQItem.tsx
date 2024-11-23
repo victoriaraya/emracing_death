@@ -14,7 +14,7 @@ const FAQItem = (props) => {
         onClick={toggleOpen}
         className="w-full flex justify-between items-center py-4 text-left"
       >
-        <span className="text-2xl pb-8 mr-24 leading-loose pt-2">
+        <span className="text-center sm:text-left text-lg sm:text-2xl sm:pb-8 mr-6 sm:mr-24 leading-loose sm:leading-loose sm:pt-2">
           {question}
         </span>
         <IoIosArrowDown
@@ -23,7 +23,11 @@ const FAQItem = (props) => {
           }`}
         />
       </button>
-      {isOpen && <p className="text-xl pb-14 leading-loose">{answer}</p>}
+      {isOpen && (
+        <p className="text-center sm:text-left text-lg sm:text-xl pb-4 sm:pb-14 leading-loose sm:leading-loose">
+          {answer}
+        </p>
+      )}
     </div>
   );
 };
