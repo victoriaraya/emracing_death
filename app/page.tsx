@@ -15,7 +15,7 @@ export default function Home() {
             className="h-5/6 rounded-lg"
           />
         </div>
-        <div className="flex flex-col items-center">
+        <div className="grid grid-cols-1 sm:flex sm:flex-col items-center">
           <h1 className="text-center md:text-6xl text-4xl text-[#45260C] pt-20 px-8 pb-32">
             Family and patient centered support for end-of-life transitions
           </h1>
@@ -25,7 +25,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className=" h-full flex-col items-center justify-items-center text-left px-36 text-[#4F7641]">
+      <div className="grid h-full sm:flex-col items-center justify-items-center text-left px-36 text-[#4F7641]">
         <h1 className="text-5xl pb-8 text-center">
           What is an End-of-Life Doula?
         </h1>
