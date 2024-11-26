@@ -5,27 +5,27 @@ export default function Home() {
   return (
     <div className="w-full h-full [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#d2b48c_100%)]">
       <div className="grid grid-cols-1 sm:flex w-full h-screen pt-10">
-        <div className="pl-12 w-full">
+        <div className="px-6 sm:px-0 sm:pl-12 w-full">
           <Image
             src={"/images/flowers.jpg"}
             alt="flower"
             width={550}
             height={400}
             quality={100}
-            className="h-5/6 rounded-lg"
+            className="sm:h-5/6 rounded-lg"
           />
         </div>
-        <div className="grid grid-cols-1 sm:flex sm:flex-col items-center">
-          <h1 className="text-center md:text-6xl text-4xl text-[#45260C] pt-20 px-8 pb-32">
+        <div className="flex flex-col items-center">
+          <h1 className="text-center md:text-6xl text-4xl text-[#45260C] pt-10 sm:pt-20 px-8 pb-12 sm:pb-32">
             Family and patient centered support for end-of-life transitions
           </h1>
-          <p className="relative group text-3xl text-[#45260C]">
+          <p className="text-center sm:relative group text-2xl sm:text-3xl text-[#45260C]">
             <Link href={"/services"}>Learn more about our services</Link>
-            <span className="absolute left-1/2 bottom-[-3px] w-0 h-[2px] bg-[#45260C] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+            <span className="sm:absolute left-1/2 bottom-[-3px] w-0 h-[2px] bg-[#45260C] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
           </p>
         </div>
       </div>
-      <div className="grid h-full sm:flex-col items-center justify-items-center text-left px-36 text-[#4F7641]">
+      <div className="grid grid-cols-1 h-full sm:flex-col items-center justify-items-center text-center sm:text-left px-5 sm:px-36 pt-16 sm:pt-0 text-[#4F7641]">
         <h1 className="text-5xl pb-8 text-center">
           What is an End-of-Life Doula?
         </h1>
@@ -50,12 +50,12 @@ export default function Home() {
           and respect.
         </p>
       </div>
-      <div className="relative h-full flex items-center justify-items-center text-left pl-14 pr-14 py-32 text-[#4F7641]">
+      <div className="grid grid-cols-1 sm:relative h-full sm:flex items-center justify-items-center text-center sm:text-left pl-8 pr-8 sm:pl-14 sm:pr-14 py-20 sm:py-32 text-[#4F7641]">
         <div className="flex-col">
-          <h1 className="text-5xl pb-10 pr-8 text-center">
+          <h1 className="text-5xl pb-8 sm:pb-10 sm:pr-8 text-center">
             Benefits of an End-of-Life Planner
           </h1>
-          <ul className="text-xl list-disc pr-16 pl-5 leading-loose">
+          <ul className="text-xl list-disc pl-2 sm:pr-16 sm:pl-5 leading-loose">
             <li className="pb-6">
               Facilitating end-of-life planning to prepare practicalities, ease
               anxiety, enhance comfort, and promote a personalized passage{" "}
@@ -88,19 +88,19 @@ export default function Home() {
           width={350}
           height={500}
           quality={100}
-          className="rounded-lg mt-24"
+          className="rounded-lg mt-6 sm:mt-24"
         />
       </div>
-      <h1 className="text-[#45260C] text-center text-4xl pb-4 pt-16">
+      <h1 className="text-[#45260C] text-center text-2xl sm:text-4xl pb-2 sm:pb-4 sm:pt-16">
         Contact us today to schedule a free 15 minute consultation
       </h1>
-      <h2 className="text-[#45260C] text-center text-3xl pb-24">
+      <h2 className="text-[#45260C] text-center text-xl sm:text-3xl pb-16 sm:pb-24">
         <a href="mailto:meaningfulendcare@gmail.com" className="relative group">
           meaningfulendcare@gmail.com
-          <span className="absolute left-1/2 bottom-[-5px] w-0 h-[2px] bg-[#45260C] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+          <span className="absolute left-1/2 bottom-[-5px] w-0 h-[2px] bg-[#45260C] transition-all duration-300 sm:group-hover:w-full sm:group-hover:left-0"></span>
         </a>
       </h2>
-      <footer className="border-t-2 border-[#F4E9E1] text-[#2c393a] py-8 flex gap-20 justify-center text-2xl">
+      <footer className="border-t-2 border-[#F4E9E1] text-[#2c393a] py-8 flex gap-10 sm:gap-20 justify-center text-2xl">
         <a
           href="https://doulagivers.com/"
           target="_blank"
@@ -113,7 +113,7 @@ export default function Home() {
             width={100}
             height={100}
             quality={100}
-            className="rounded-lg"
+            className="rounded-lg w-20 sm:w-24"
           />
         </a>
         <a
@@ -128,7 +128,7 @@ export default function Home() {
             width={100}
             height={100}
             quality={100}
-            className="rounded-lg"
+            className="rounded-lg w-[75px] sm:w-[90px]"
           />
         </a>
       </footer>
