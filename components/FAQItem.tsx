@@ -14,11 +14,11 @@ const FAQItem = (props) => {
         onClick={toggleOpen}
         className="w-full flex justify-between items-center py-4 text-left"
       >
-        <span className="text-center sm:text-left text-lg sm:text-2xl sm:pb-8 mr-6 sm:mr-24 leading-loose sm:leading-loose sm:pt-2">
+        <span className="text-center sm:text-left text-lg sm:text-2xl sm:pb-8 mr-6 leading-loose sm:leading-loose sm:pt-2">
           {question}
         </span>
         <IoIosArrowDown
-          className={`transform transition-transform duration-300 size-6 ${
+          className={`transform transition-transform duration-300 w-14 sm:w-10 ${
             isOpen ? "rotate-180" : ""
           }`}
         />

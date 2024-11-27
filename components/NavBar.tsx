@@ -12,10 +12,10 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="relative text-[#45260C] bg-gradient-to-b from-[#CDBA9D] to-white md:h-60 h-16">
+    <nav className="relative text-[#45260C] bg-gradient-to-b from-[#CDBA9D] to-white lg:h-60 h-16">
       <div className="flex justify-center items-center">
         <button
-          className="text-3xl md:hidden focus:outline-none z-40"
+          className="text-3xl lg:hidden focus:outline-none z-40"
           onClick={toggleMenu}
         >
           ☰
@@ -23,35 +23,35 @@ const NavBar = () => {
       </div>
 
       <ul
-        className={`flex flex-col md:flex-row gap-3 sm:gap-24 justify-center items-center text-center text-2xl w-full sm:h-full absolute top-0 left-0 mt-14 md:mt-0 sm:p-3 z-20 ${
+        className={`flex flex-col lg:flex-row gap-3 lg:gap-24 justify-center items-center text-center text-2xl w-full lg:h-full absolute top-0 left-0 mt-14 lg:mt-0 sm:p-3 z-20 ${
           isOpen ? "block" : "hidden"
-        } md:flex bg-gradient-to-b from-white to-[#CDBA9D] md:from-[#CDBA9D] md:to-white`}
+        } lg:flex bg-gradient-to-b from-white to-[#CDBA9D] lg:from-[#CDBA9D] lg:to-white`}
       >
-        <li className="relative group md:hidden pt-2">
+        <li className="relative group lg:hidden pt-2">
           <Link href="/" onClick={() => setIsOpen(false)}>
             Home
           </Link>
           <span className="absolute left-1/2 bottom-[-3px] w-0 h-[2px] bg-[#45260C] transition-all duration-300 sm:group-hover:w-full sm:group-hover:left-0"></span>
         </li>
-        <li className="relative group">
+        <li className="relative group lg:pr-4">
           <Link href="/faq" onClick={() => setIsOpen(false)}>
             FAQ
           </Link>
-          <span className="absolute left-1/2 bottom-[-3px] w-0 h-[2px] bg-[#45260C] transition-all duration-300 sm:group-hover:w-full sm:group-hover:left-0"></span>
+          <span className="absolute left-1/2 bottom-[-3px] w-0 h-[2px] bg-[#45260C] transition-all duration-300 sm:group-hover:w-10/12 sm:group-hover:left-0"></span>
         </li>
-        <li className="relative group">
+        <li className="relative group lg:pr-4">
           <Link href="/services" onClick={() => setIsOpen(false)}>
             Services
           </Link>
-          <span className="absolute left-1/2 bottom-[-3px] w-0 h-[2px] bg-[#45260C] transition-all duration-300 sm:group-hover:w-full sm:group-hover:left-0"></span>
+          <span className="absolute left-1/2 bottom-[-3px] w-0 h-[2px] bg-[#45260C] transition-all duration-300 sm:group-hover:w-10/12 sm:group-hover:left-0"></span>
         </li>
-        <li className="relative group -mx-20 hidden md:block">
+        <li className="relative group hidden lg:block">
           <Link href="/" onClick={() => setIsOpen(false)}>
             <Image
               src={"/images/logo.png"}
               alt="meaningful endcare logo"
-              width={450}
-              height={450}
+              width={300}
+              height={200}
               quality={100}
             />
           </Link>

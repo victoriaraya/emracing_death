@@ -25,8 +25,8 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 h-full sm:flex-col items-center justify-items-center text-center sm:text-left px-5 sm:px-36 pt-16 sm:pt-0 text-[#4F7641]">
-        <h1 className="text-5xl pb-8 text-center">
+      <div className="grid grid-cols-1 h-full sm:flex-col items-center justify-items-center text-center sm:text-left px-5 sm:px-36 pt-28 sm:pt-0 text-[#4F7641]">
+        <h1 className="text-4xl sm:text-5xl pb-4 sm:pb-8 text-center">
           What is an End-of-Life Doula?
         </h1>
         <p className="text-xl leading-loose">
@@ -50,9 +50,9 @@ export default function Home() {
           and respect.
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:relative h-full sm:flex items-center justify-items-center text-center sm:text-left pl-8 pr-8 sm:pl-14 sm:pr-14 py-20 sm:py-32 text-[#4F7641]">
+      <div className="grid grid-cols-1 sm:relative h-full sm:flex items-center justify-items-center text-center sm:text-left pl-8 pr-8 sm:pl-14 sm:pr-14 py-28 sm:py-32 text-[#4F7641]">
         <div className="flex-col">
-          <h1 className="text-5xl pb-8 sm:pb-10 sm:pr-8 text-center">
+          <h1 className="text-4xl sm:text-5xl pb-4 sm:pb-10 sm:pr-8 text-center">
             Benefits of an End-of-Life Planner
           </h1>
           <ul className="text-xl list-disc pl-2 sm:pr-16 sm:pl-5 leading-loose">
