@@ -7,7 +7,7 @@ const Services = () => {
       <h1 className="text-5xl sm:text-7xl text-center py-8 self-center">
         Services
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 pb-14">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pb-14">
         {ServicesList.map((service, idx) => (
           <ServiceTile service={service} key={idx} />
         ))}
