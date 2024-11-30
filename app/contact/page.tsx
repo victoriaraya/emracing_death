@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Contact = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#d2b48c_100%)] text-[#4F7641] h-full w-full px-5 pt-10 sm:pt-0 sm:px-14 pb-20">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#d2b48c_100%)] text-[#4F7641] lg:h-svh xl:h-full w-full px-5 pt-10 sm:pt-0 sm:px-14 pb-20">
       <p className="text-xl sm:text-3xl text-center sm:text-center leading-loose sm:leading-loose self-center">
         Let's work together! Contact me at{" "}
         <a
