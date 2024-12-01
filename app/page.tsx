@@ -4,7 +4,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="w-full h-full [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#d2b48c_100%)]">
-      <div className="grid grid-cols-1 sm:flex w-full h-screen pt-10">
+      <h1 className="text-center text-4xl text-[#4F7641] py-3 sm:hidden">
+        Meaningful EndCare
+      </h1>
+      <div className="grid grid-cols-1 sm:flex w-full h-screen pt-5 sm:pt-10">
         <div className="px-6 sm:px-0 sm:pl-12 w-full">
           <Image
             src={"/images/flowers.jpg"}
@@ -12,20 +15,20 @@ export default function Home() {
             width={550}
             height={400}
             quality={100}
-            className="sm:h-5/6 rounded-lg"
+            className="h-full sm:h-5/6 rounded-lg"
           />
         </div>
         <div className="flex flex-col items-center">
-          <h1 className="text-center md:text-6xl text-4xl text-[#45260C] pt-10 sm:pt-20 px-8 pb-12 sm:pb-32">
+          <h1 className="text-center md:text-6xl text-4xl text-[#45260C] pt-8 sm:pt-20 px-8 pb-12 sm:pb-32">
             Family and patient centered support for end-of-life transitions
           </h1>
-          <p className="text-center sm:relative group text-2xl sm:text-3xl text-[#45260C]">
+          <p className="text-center sm:relative group text-2xl sm:text-3xl text-[#45260C] underline underline-offset-8 sm:no-underline">
             <Link href={"/services"}>Learn more about our services</Link>
             <span className="sm:absolute left-1/2 bottom-[-3px] w-0 h-[2px] bg-[#45260C] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 h-full sm:flex-col items-center justify-items-center text-center sm:text-left px-5 sm:px-36 pt-28 sm:pt-0 text-[#4F7641]">
+      <div className="grid grid-cols-1 h-full sm:flex-col items-center justify-items-center text-center sm:text-left px-5 sm:px-36 pt-5 sm:pt-0 text-[#4F7641]">
         <h1 className="text-4xl sm:text-5xl pb-4 sm:pb-8 text-center">
           What is an End-of-Life Doula?
         </h1>
@@ -91,7 +94,7 @@ export default function Home() {
           className="rounded-lg mt-6 sm:mt-24"
         />
       </div>
-      <h1 className="text-[#45260C] text-center text-2xl sm:text-4xl pb-2 sm:pb-4 sm:pt-16">
+      <h1 className="text-[#45260C] text-center text-2xl sm:text-4xl pb-2 sm:pb-4 sm:pt-16 px-2 sm:px-0">
         Contact us today to schedule a free 15 minute consultation
       </h1>
       <h2 className="text-[#45260C] text-center text-xl sm:text-3xl pb-16 sm:pb-24">
