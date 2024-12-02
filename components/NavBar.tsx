@@ -21,9 +21,8 @@ const NavBar = () => {
           ☰
         </button>
       </div>
-
       <ul
-        className={`flex flex-col lg:flex-row gap-3 lg:gap-24 justify-center items-center text-center text-2xl w-full lg:h-full absolute top-0 left-0 mt-14 lg:mt-0 sm:p-3 z-20 ${
+        className={`flex flex-col lg:flex-row gap-3 lg:gap-24 justify-center items-center text-center text-2xl w-full lg:h-full absolute top-0 left-0 mt-14 lg:mt-0 sm:py-3 sm:px-8 z-20 ${
           isOpen ? "block" : "hidden"
         } lg:flex bg-gradient-to-b from-white to-[#CDBA9D] lg:from-[#CDBA9D] lg:to-white`}
       >
