@@ -9,3 +9,5 @@ This website was created to provide a compassionate and informative online prese
 
 - Frontend: Next.js with Tailwind CSS for styling and responsive design.
 - Deployment: Deployed using Vercel
+
+## Features
