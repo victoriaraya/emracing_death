@@ -105,21 +105,6 @@ export default function Home() {
       </h2>
       <footer className="border-t-2 border-[#F4E9E1] text-[#2c393a] py-8 flex gap-10 sm:gap-20 justify-center text-2xl">
         <a
-          href="https://doulagivers.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="doulagivers"
-        >
-          <Image
-            src={"/images/doulagivers_logo.png"}
-            alt="doulagivers logo"
-            width={100}
-            height={100}
-            quality={100}
-            className="rounded-lg w-20 sm:w-24"
-          />
-        </a>
-        <a
           href="https://www.nedalliance.org/"
           target="_blank"
           rel="noopener noreferrer"
@@ -131,7 +116,7 @@ export default function Home() {
             width={100}
             height={100}
             quality={100}
-            className="rounded-lg w-[75px] sm:w-[90px]"
+            className="rounded-lg"
           />
         </a>
       </footer>
